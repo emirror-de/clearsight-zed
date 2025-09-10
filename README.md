@@ -1,23 +1,22 @@
 # ClearSight Theme for Zed
 
-A scientifically-backed, accessibility-focused theme for the Zed editor with clear vision for every developer. This theme is specifically designed for developers who code in bright environments, during long sessions, and those with red-green color vision differences.
+An accessibility-focused theme for the Zed editor with clear vision for every developer. This theme is specifically designed for developers who code in bright environments, during long sessions, and those with red-green color vision differences.
 
 ## 🎯 Key Features
 
 - **🌞 Bright Environment Optimized** - High contrast, saturated colors that remain visible in direct sunlight
-- **♿ Accessibility First** - Based on Paul Tol's scientific research for colorblind-safe palettes
+- **♿ Accessibility First** - Carefully designed colorblind-safe color combinations
 - **👁️ Eye Strain Reduction** - Warm backgrounds, muted punctuation, and carefully balanced saturation
-- **🔬 Research-Based** - Colors validated by SRON (Netherlands Institute for Space Research)
-- **🎨 Research-Based Colors** - Based on Rustdoc's proven syntax highlighting approach
+- **🎨 Thoughtful Colors** - Inspired by proven syntax highlighting approaches
 - **⚡ Professional Grade** - Suitable for enterprise environments and collaborative work
 
-## 🧪 Scientific Foundation
+## 🧪 Design Foundation
 
-This theme implements colors from:
-- **Paul Tol's Color Schemes** - Scientifically validated for colorblind accessibility
+This theme implements colors based on:
+- **Colorblind Accessibility Principles** - Carefully chosen for red-green color vision differences
 - **IBM Accessibility Guidelines** - Enterprise-tested color combinations
 - **WCAG 2.1 AAA Standards** - Minimum 7:1 contrast ratios
-- **Ophthalmological Research** - Optimized for reduced eye strain
+- **Eye Strain Research** - Optimized for reduced eye strain during long sessions
 
 ## 🎨 Theme Variants
 
@@ -51,7 +50,7 @@ Optimized for evening coding and reduced blue light:
 
 ## 🚨 Status Colors (Colorblind-Safe)
 
-Both themes use scientifically validated status colors:
+Both themes use colorblind-safe status colors:
 
 **Light Theme:**
 - **Error**: `#e74c3c` - Red-orange (distinguishable from green)
@@ -129,8 +128,8 @@ or
 ## 🔬 Accessibility Features
 
 ### Colorblind Support
-- **99%+ Coverage** - Works for deuteranopia and protanopia
-- **Paul Tol Validated** - Uses scientifically tested color combinations
+- **Deuteranopia & Protanopia Friendly** - Works for red-green color vision differences
+- **Carefully Tested** - Uses thoughtfully chosen color combinations
 - **High Distinction** - Saturated colors are MORE distinguishable for colorblind users
 
 ### Bright Environment Optimization
@@ -174,7 +173,7 @@ If you prefer slightly less saturated colors, you can adjust in your Zed setting
 ## 🤝 Contributing
 
 Contributions welcome! This theme prioritizes:
-1. **Scientific validation** over personal preference
+1. **Accessibility testing** over personal preference
 2. **Accessibility** over aesthetics
 3. **Functionality** over trends
 
@@ -191,19 +190,19 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-- **Paul Tol** - For the scientific color research this theme is based on
 - **Zed Team** - For the excellent editor and theming system
 - **IBM Design** - For accessibility guidelines and testing
 - **WCAG Working Group** - For contrast ratio standards
+- **Colorblind Community** - For feedback on accessible color choices
 
 ## 🔗 Related Resources
 
-- [Paul Tol's Color Schemes](https://personal.sron.nl/~pault/data/colourschemes.pdf)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
+- [IBM Accessibility Guidelines](https://www.ibm.com/design/accessibility/)
 - [Zed Editor](https://zed.dev/)
 
 ---
 
 **Happy coding with ClearSight - Clear vision for every developer!** 🦀✨
 
-*Built with accessibility, research, and developer comfort in mind.*
+*Built with accessibility, testing, and developer comfort in mind.*
