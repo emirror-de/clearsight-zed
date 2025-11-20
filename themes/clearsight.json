@@ -598,6 +598,8 @@
                 "editor.indent_guide_active": "#CFCBC6",
                 "editor.document_highlight.read_background": "#2E787B20",
                 "editor.document_highlight.write_background": "#2E787B40",
+                "editor.selection.background": "#EAF6F433",
+                "editor.selection.border": "#2F838C",
                 "link_text.hover": "#2F838C",
                 "conflict": "#B43A3A",
                 "conflict.background": "#B43A3A20",
@@ -643,9 +645,9 @@
                 "warning.border": "#AA6B1B",
                 "players": [
                     {
-                        "cursor": "#196F5C",
-                        "background": "#E8F4F230",
-                        "selection": "#2A6E7F22"
+                        "cursor": "#1B6F5C",
+                        "background": "#EAF6F444",
+                        "selection": "#2D6F7A66"
                     }
                 ],
                 "syntax": {
@@ -862,6 +864,8 @@
                 "editor.indent_guide_active": "#22494230",
                 "editor.document_highlight.read_background": "#22494220",
                 "editor.document_highlight.write_background": "#22494240",
+                "editor.selection.background": "#22494244",
+                "editor.selection.border": "#67B2BD",
                 "link_text.hover": "#67B2BD",
                 "conflict": "#F28B82",
                 "conflict.background": "#F28B82",
@@ -907,9 +911,9 @@
                 "warning.border": "#E4A95D",
                 "players": [
                     {
-                        "cursor": "#56C6A6",
-                        "background": "#204B4A20",
-                        "selection": "#204B4A33"
+                        "cursor": "#4EBB9F",
+                        "background": "#204B4A44",
+                        "selection": "#204B4A66"
                     }
                 ],
                 "syntax": {
