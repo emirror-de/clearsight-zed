@@ -8,8 +8,8 @@
             "appearance": "light",
             "style": {
                 "background": "#fdfcfa",
-                "foreground": "#2c2c2c",
-                "text": "#2c2c2c",
+                "foreground": "#262626",
+                "text": "#262626",
                 "text.muted": "#878787",
                 "text.placeholder": "#bcbcbc",
                 "text.disabled": "#bcbcbc",
@@ -55,15 +55,15 @@
                 "scrollbar.thumb.border": "#00000000",
                 "scrollbar.track.background": "#00000000",
                 "scrollbar.track.border": "#00000000",
-                "editor.foreground": "#2c2c2c",
+                "editor.foreground": "#262626",
                 "editor.background": "#fdfcfa",
                 "editor.gutter.background": "#fdfcfa",
                 "editor.subheader.background": "#e4e4e4",
-                "editor.active_line.background": "#e4e4e420",
-                "editor.highlighted_line.background": "#e4e4e440",
+                "editor.active_line.background": "#e4e4e430",
+                "editor.highlighted_line.background": "#e4e4e450",
                 "editor.line_number": "#878787",
-                "editor.active_line_number": "#2c2c2c",
-                "editor.invisible": "#bcbcbc",
+                "editor.active_line_number": "#262626",
+                "editor.invisible": "#c9c9c9",
                 "editor.wrap_guide": "#d0d0d080",
                 "editor.active_wrap_guide": "#d0d0d0",
                 "editor.indent_guide": "#d0d0d0",
@@ -154,14 +154,16 @@
                         "color": "#2277cc"
                     },
                     "function": {
-                        "color": "#0066cc"
+                        "color": "#0066cc",
+                        "font_weight": 600
                     },
                     "hint": {
                         "color": "#878787",
                         "font_weight": 700
                     },
                     "keyword": {
-                        "color": "#8b3aa0"
+                        "color": "#8b3aa0",
+                        "font_weight": 700
                     },
                     "label": {
                         "color": "#cc6600"
@@ -177,7 +179,7 @@
                         "color": "#cc6600"
                     },
                     "operator": {
-                        "color": "#5a5a5a"
+                        "color": "#9b9b9b"
                     },
                     "predictive": {
                         "color": "#5a5a5a",
@@ -187,22 +189,22 @@
                         "color": "#339966"
                     },
                     "primary": {
-                        "color": "#2c2c2c"
+                        "color": "#262626"
                     },
                     "property": {
                         "color": "#2277cc"
                     },
                     "punctuation": {
-                        "color": "#5a5a5a"
+                        "color": "#9b9b9b"
                     },
                     "punctuation.bracket": {
-                        "color": "#5a5a5a"
+                        "color": "#9b9b9b"
                     },
                     "punctuation.delimiter": {
-                        "color": "#5a5a5a"
+                        "color": "#9b9b9b"
                     },
                     "punctuation.list_marker": {
-                        "color": "#5a5a5a"
+                        "color": "#9b9b9b"
                     },
                     "punctuation.special": {
                         "color": "#8b3aa0"
@@ -236,7 +238,7 @@
                         "color": "#2277cc"
                     },
                     "variable": {
-                        "color": "#2c2c2c"
+                        "color": "#262626"
                     },
                     "variable.special": {
                         "color": "#8b3aa0"
@@ -323,8 +325,8 @@
                 "editor.background": "#1e1e2e",
                 "editor.gutter.background": "#1e1e2e",
                 "editor.subheader.background": "#3a3a3a",
-                "editor.active_line.background": "#3a3a3a20",
-                "editor.highlighted_line.background": "#3a3a3a40",
+                "editor.active_line.background": "#3a3a3a30",
+                "editor.highlighted_line.background": "#3a3a3a50",
                 "editor.line_number": "#9ca0a4",
                 "editor.active_line_number": "#e8e8e8",
                 "editor.invisible": "#6c7086",
@@ -418,14 +420,16 @@
                         "color": "#77aaff"
                     },
                     "function": {
-                        "color": "#66ccff"
+                        "color": "#66ccff",
+                        "font_weight": 600
                     },
                     "hint": {
                         "color": "#9ca0a4",
                         "font_weight": 700
                     },
                     "keyword": {
-                        "color": "#d4a4f4"
+                        "color": "#d4a4f4",
+                        "font_weight": 700
                     },
                     "label": {
                         "color": "#ffb366"
@@ -441,7 +445,7 @@
                         "color": "#ffb366"
                     },
                     "operator": {
-                        "color": "#9ca0a4"
+                        "color": "#8f939b"
                     },
                     "predictive": {
                         "color": "#9ca0a4",
@@ -457,16 +461,16 @@
                         "color": "#77aaff"
                     },
                     "punctuation": {
-                        "color": "#9ca0a4"
+                        "color": "#8f939b"
                     },
                     "punctuation.bracket": {
-                        "color": "#9ca0a4"
+                        "color": "#8f939b"
                     },
                     "punctuation.delimiter": {
-                        "color": "#9ca0a4"
+                        "color": "#8f939b"
                     },
                     "punctuation.list_marker": {
-                        "color": "#9ca0a4"
+                        "color": "#8f939b"
                     },
                     "punctuation.special": {
                         "color": "#d4a4f4"

@@ -151,10 +151,27 @@ If you prefer slightly less saturated colors, you can adjust in your Zed setting
 {
   "theme": "ClearSight Light",
   "ui_font_size": 16,
-  "buffer_font_size": 14,
-  // Add any other customizations
+  "buffer_font_size": 14
 }
 ```
+
+### Recommended settings for Source Code Pro
+
+To get the best experience with Source Code Pro (optimized for long sessions), we recommend the following Zed settings:
+
+```json
+{
+  "editor.font_family": "Source Code Pro",
+  "editor.font_size": 14,
+  "editor.line_height": 1.5,
+  "editor.show_invisibles": false
+}
+```
+
+Notes:
+- Italics for comments: ClearSight enables italic comments by default to improve scanability with humanist monospaced fonts like Source Code Pro. Some font installs or builds of Source Code Pro may not include true italic glyphs; if comments are not rendered italic, install a Source Code Pro package that includes italics, or disable comment italics by editing `themes/clearsight.json` (remove or change `"font_style": "italic"` from `syntax.comment` and `syntax.comment.doc`).
+- Font size & line height: try 12–15px font size and a line height between 1.4–1.6 for long sessions — 14 and 1.5 are a good starting point.
+- If you'd like punctuation or invisibles further muted, you can edit `syntax.punctuation` and `editor.invisible` in the theme JSON.
 
 ## 🏢 Use Cases
 
