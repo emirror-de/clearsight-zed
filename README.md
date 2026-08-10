@@ -4,9 +4,9 @@ A scientifically-backed, accessibility-focused theme for the Zed editor with cle
 
 ## 🎯 Key Features
 
-- **🌞 Bright Environment Optimized** - High contrast, saturated colors that remain visible in direct sunlight
+- **🌞 Bright Environment Optimized** - High contrast foundations that remain readable in bright environments
 - **♿ Accessibility First** - Based on Paul Tol's scientific research for colorblind-safe palettes
-- **👁️ Eye Strain Reduction** - Warm backgrounds, muted punctuation, and carefully balanced saturation
+- **👁️ MonoLisa-Tuned Hierarchy** - Calmer structure, restrained weights, and semantic colors that work with MonoLisa's strong glyph design
 - **🔬 Research-Based** - Colors validated by SRON (Netherlands Institute for Space Research)
 - **🎨 Research-Based Colors** - Based on Rustdoc's proven syntax highlighting approach
 - **⚡ Professional Grade** - Suitable for enterprise environments and collaborative work
@@ -23,31 +23,35 @@ This theme implements colors from:
 
 ### ClearSight Light - Bright Environment Ready
 Perfect for offices, outdoor coding, or well-lit spaces:
-- **Background**: `#fdfcfa` - Warm off-white reduces glare vs pure white
-- **Text**: `#2c2c2c` - Near-black for maximum readability
-- **Comments**: `#5a5a5a` - Subtle but readable warm gray
+- **Background**: `#faf9f7` - Warm off-white that stays bright without becoming clinical
+- **Text**: `#262626` - Near-black for stable, high-contrast reading
+- **Comments**: `#666666` - Clear secondary text that remains visible in long sessions
 
-**Syntax Colors:**
-- **Keywords/Booleans**: `#8b3aa0` - Rich purple (colorblind-safe)
-- **Functions**: `#0066cc` - Deep blue (high visibility)
-- **Types**: `#2277cc` - Medium blue (distinguishable from functions)
-- **Strings**: `#339966` - Dark teal (colorblind-safe alternative to green)
-- **Numbers**: `#cc6600` - Saturated orange (bright-environment optimized)
-- **Comments**: `#5a5a5a` - Warm gray (non-distracting)
+**MonoLisa-oriented syntax colors:**
+- **Keywords/Booleans**: `#6f4d80` - Softer purple with less visual insistence over long sessions
+- **Functions**: `#2a6d9a` - Slightly calmer blue reserved for callable emphasis
+- **Types/Enums/Constructors**: `#66597d` - Ink-like violet-gray that stays distinct without adding blue cast
+- **Properties/Variables**: `#262626` - Primary text to keep high-frequency code calm and readable
+- **Strings/Preprocessor**: `#2f745c` - Moderated green that pairs cleanly with the warm background
+- **Numbers/Constants**: `#b85c00` - Warm orange with strong separation from blue and green
+- **Punctuation/Operators**: `#81848a` - Softer structure that lets MonoLisa's glyph shapes do more of the work
+- **Comments**: `#666666` regular, `#707070` italic for doc comments
 
 ### ClearSight Dark - Low-Light Comfort
 Optimized for evening coding and reduced blue light:
-- **Background**: `#1e1e2e` - Warm dark background
-- **Text**: `#e8e8e8` - High contrast white
-- **Comments**: `#9ca0a4` - Comfortable reading gray
+- **Background**: `#202024` - Warm dark background with reduced glare
+- **Text**: `#e5e5e7` - Soft high-contrast foreground
+- **Comments**: `#989ba3` - Comfortable reading gray with slightly calmer contrast
 
-**Syntax Colors:**
-- **Keywords/Booleans**: `#d4a4f4` - Light purple
-- **Functions**: `#66ccff` - Eye-friendly cyan
-- **Types**: `#77aaff` - Light blue (distinguishable)
-- **Strings**: `#66ddaa` - Gentle teal-green
-- **Numbers**: `#ffb366` - Warm orange (comfortable)
-- **Comments**: `#9ca0a4` - Subtle but readable
+**MonoLisa-oriented syntax colors:**
+- **Keywords/Booleans**: `#b896d6` - Softer light purple for dense code
+- **Functions**: `#57aecd` - Restrained cyan-blue for callable emphasis
+- **Types/Enums/Constructors**: `#9d8dbe` - Gentle lavender-gray distinct from function blue
+- **Properties/Variables**: `#e5e5e7` - Primary text for a calmer baseline
+- **Strings/Preprocessor**: `#5aa88b` - Moderated teal-green tuned for low-light reading
+- **Numbers**: `#e5ad6a` - Warm orange (comfortable)
+- **Punctuation/Operators**: `#a7aab0` - Softer structure that preserves MonoLisa clarity
+- **Comments**: `#989ba3` regular, `#a8abb1` italic for doc comments
 
 ## 🚨 Status Colors (Colorblind-Safe)
 
@@ -55,9 +59,9 @@ Both themes use scientifically validated status colors:
 
 **Light Theme:**
 - **Error**: `#e74c3c` - Red-orange (distinguishable from green)
-- **Warning**: `#cc6600` - Orange
-- **Success**: `#0066cc` - Blue (instead of problematic green)
-- **Info**: `#2277cc` - Lighter blue
+- **Warning**: `#b85c00` - Orange
+- **Success**: `#1769aa` - Blue (instead of problematic green)
+- **Info**: `#1769aa` - Semantic blue
 
 **Dark Theme:**
 - **Error**: `#f38ba8` - Light red-pink
@@ -139,7 +143,7 @@ or
 - **Warm Off-White Background** - Reduces glare compared to pure white
 
 ### Eye Strain Reduction
-- **Strategic Saturation** - High on syntax elements, low on structure
+- **Strategic Saturation** - Calmer syntax chroma so MonoLisa's character shapes carry more of the hierarchy
 - **Warm Color Temperature** - Reduced blue light exposure
 - **Balanced Visual Hierarchy** - Important elements stand out without overwhelming
 
@@ -155,23 +159,24 @@ If you prefer slightly less saturated colors, you can adjust in your Zed setting
 }
 ```
 
-### Recommended settings for Source Code Pro
+### Recommended settings for MonoLisa
 
-To get the best experience with Source Code Pro (optimized for long sessions), we recommend the following Zed settings:
+To get the best experience with MonoLisa, we recommend the following Zed settings:
 
 ```json
 {
-  "editor.font_family": "Source Code Pro",
+  "editor.font_family": "MonoLisa",
   "editor.font_size": 14,
-  "editor.line_height": 1.5,
+  "editor.line_height": 1.45,
   "editor.show_invisibles": false
 }
 ```
 
 Notes:
-- Italics for comments: ClearSight enables italic comments by default to improve scanability with humanist monospaced fonts like Source Code Pro. Some font installs or builds of Source Code Pro may not include true italic glyphs; if comments are not rendered italic, install a Source Code Pro package that includes italics, or disable comment italics by editing `themes/clearsight.json` (remove or change `"font_style": "italic"` from `syntax.comment` and `syntax.comment.doc`).
-- Font size & line height: try 12–15px font size and a line height between 1.4–1.6 for long sessions — 14 and 1.5 are a good starting point.
-- If you'd like punctuation or invisibles further muted, you can edit `syntax.punctuation` and `editor.invisible` in the theme JSON.
+- Comment typography: both ClearSight variants now use regular comments by default and keep italics for documentation comments, links, and predictive text where MonoLisa's italic style adds useful emphasis.
+- Keyword/function weight: the MonoLisa-tuned palette removes extra emphasis from frequent syntax categories so color and glyph shape do most of the work.
+- Font size & line height: try 12–15px font size and a line height between 1.4–1.5 for long sessions — 14 and 1.45 are a good starting point.
+- If you'd like punctuation, selection, or invisibles further tuned, you can edit `syntax.punctuation`, `players[].selection`, and `editor.invisible` in the theme JSON.
 
 ## 🏢 Use Cases
 
